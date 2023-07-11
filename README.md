@@ -1,1 +1,1 @@
-# sp23-s304
+# Trying out of boredom to build a good frontend, so far got a very lousy one
