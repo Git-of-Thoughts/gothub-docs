@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ParticlesBg color="#555555" type="cobweb" bg={true} />
+      <ParticlesBg color="#6B4E94" type="cobweb" bg={true} />
       <Router>
         <Navbar />
         <Routes>

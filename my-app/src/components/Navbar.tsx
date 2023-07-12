@@ -6,6 +6,9 @@ const NavbarContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 `;
 
 const Icon = styled.a`
@@ -17,13 +20,13 @@ const Icon = styled.a`
 const Navbar: React.FC = () => {
     return (
         <NavbarContainer>
-            <Icon href="https://github.com/apps/gothub-ai" target="_white" rel="noopener noreferrer">
+            <Icon href="https://github.com/apps/gothub-ai" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={32} />
             </Icon>
-            <Icon href="https://www.linkedin.com/company/gothubai" target="_white" rel="noopener noreferrer">
+            <Icon href="https://www.linkedin.com/company/gothubai" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={32} />
             </Icon>
-            <Icon href="https://twitter.com/" target="_white" rel="noopener noreferrer">
+            <Icon href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={32} />
             </Icon>
         </NavbarContainer>
@@ -31,3 +34,4 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+
