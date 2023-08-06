@@ -3,10 +3,6 @@
   "Agent": "Agent",
   "Oracle": "Oracle",
   "Ability": "Ability",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
