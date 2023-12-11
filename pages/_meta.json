@@ -1,13 +1,10 @@
 {
   "index": "Introduction",
-  "Agent": "Agent",
-  "Oracle": "Oracle",
-  "Ability": "Ability",
   "Roadmap": "🗺️ Roadmap",
   "contact": {
-    "title": "Contact ↗",
+    "title": "Home ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://gothub-gpt.webflow.io/",
     "newWindow": true
   }
 }
