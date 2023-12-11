@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.com/invite/9rq9CgVvbD",
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase: "https://github.com/Git-of-Thoughts/gothub-docs",
   footer: {
     text: "GotHub.AI © 2023",
   },
