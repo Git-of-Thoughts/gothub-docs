@@ -1,6 +1,15 @@
 # Introduction
 
-##
+## First-line magic
+
+Without any first-line magic, the default large language model will be used.
+
+```python
+What is the meaning of life?
+```
+
+> **ChatGPT gpt-4:**
+> The meaning of life is a philosophical and metaphysical question related to the significance of living or existence in general. Many interpretations often relate to one's purpose, fulfillment, or the pursuit of happiness. However, it can vary greatly among different cultures, religions, philosophical views. It's a deeply personal and subjective topic.
 
 ### To start a new chat
 
@@ -53,7 +62,7 @@ What is the meaning of life?
 ```python
 as code
 from got import ask
-ask("What is the meaning of life?")
+response = ask("What is the meaning of life?")
 ```
 
 ### To talk to GPT-3.5 in current cell using code
@@ -61,7 +70,7 @@ ask("What is the meaning of life?")
 ```python
 with gpt-3.5 as code
 from got import ask
-ask("What is the meaning of life?")
+response = ask("What is the meaning of life?")
 ```
 
 ### To talk to GPT-4 in current cell using code
@@ -69,5 +78,5 @@ ask("What is the meaning of life?")
 ```python
 with gpt-4 as code
 from got import ask
-ask("What is the meaning of life?")
+response = ask("What is the meaning of life?")
 ```
